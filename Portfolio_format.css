@@ -48,3 +48,12 @@ a h3 {
     font-size: 18px;
     margin-bottom: 25px;
   }
+
+  .port-dark {
+    background-color: #3A2B50;
+    color:#fff;
+  }
+
+  .port-dark figcaption {
+    color:#ddd;
+  }
