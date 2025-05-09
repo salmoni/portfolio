@@ -57,3 +57,19 @@ a h3 {
   .port-dark figcaption {
     color:#ddd;
   }
+
+  .port-olive {
+    background-color: #50452B;
+    color: #fff;
+  }
+  
+  .port-green {
+    background-color: #41502B;
+    color: #fff;
+  }
+  
+  .port-red {
+    background-color: #502B41;
+    color: #fff;
+  }
+  
