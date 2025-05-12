@@ -1,29 +1,37 @@
-
 p {
   padding-left: 5px;
+}
+
+.bass-guitar {
+
+  width: 100%;
+
+  @media (min-width: 768px) {
+    width: 80%;
+  }
 }
 
 h1 {
   padding-left: 5px;
 
   /* Extra small devices (phones, less than 768px) */
-    font-size: 21px;
-  
-    /* Small devices (tablets, 768px and up) */
-    @media (min-width: 768px) {
-      font-size: 24px;
-    }
-  
-    /* Medium devices (desktops, 992px and up) */
-    @media (min-width: 992px) {
-      font-size: 36px;
-    }
-  
-    /* Large devices (large desktops, 1200px and up) */
-    @media (min-width: 1200px) {
-      font-size: 36px;
-    }
+  font-size: 21px;
+
+  /* Small devices (tablets, 768px and up) */
+  @media (min-width: 768px) {
+    font-size: 24px;
   }
+
+  /* Medium devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+    font-size: 36px;
+  }
+
+  /* Large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) {
+    font-size: 36px;
+  }
+}
 
 h2 {
   padding-left: 5px;
@@ -36,81 +44,82 @@ h3 {
 a h3 {
   color: #fff;
 }
-  .heads {
 
-    font-size: 14px;
-  
-    /* Small devices (tablets, 768px and up) */
-    @media (min-width: 768px) {
-      font-size: 18px;
-    }
+.heads {
 
-  }
+  font-size: 14px;
 
-  .h3heads {
-
-    font-size: 14px;
-  
-    /* Small devices (tablets, 768px and up) */
-    @media (min-width: 768px) {
-      font-size: 28px;
-    }
-
-  }
-
-  p {
+  /* Small devices (tablets, 768px and up) */
+  @media (min-width: 768px) {
     font-size: 18px;
-    margin-bottom: 25px;
   }
 
-  .port-dark {
-    background-color: #3A2B50;
-    color:#fff;
+}
+
+.h3heads {
+
+  font-size: 14px;
+
+  /* Small devices (tablets, 768px and up) */
+  @media (min-width: 768px) {
+    font-size: 28px;
   }
 
-  .port-dark figcaption {
-    color:#ddd;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.port-dark {
+  background-color: #3A2B50;
+  color: #fff;
+}
+
+.port-dark figcaption {
+  color: #ddd;
+}
+
+.port-olive {
+  background-color: #50452B;
+  color: #fff;
+}
+
+.port-green {
+  background-color: #41502B;
+  color: #fff;
+}
+
+.port-red {
+  background-color: #502B41;
+  color: #fff;
+}
+
+.port-red figcaption {
+  color: #ddd;
+}
+
+.port-green figcaption {
+  color: #ddd;
+}
+
+.blurb {
+  /* Extra small devices (phones, less than 768px) */
+  font-size: 11px;
+
+  /* Small devices (tablets, 768px and up) */
+  @media (min-width: 768px) {
+    font-size: 100%;
   }
 
-  .port-olive {
-    background-color: #50452B;
-    color: #fff;
-  }
-  
-  .port-green {
-    background-color: #41502B;
-    color: #fff;
-  }
-  
-  .port-red {
-    background-color: #502B41;
-    color: #fff;
-  }
-  
-  .port-red figcaption {
-    color:#ddd;
+  /* Medium devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+    font-size: 100%;
   }
 
-  .port-green figcaption {
-    color:#ddd;
+  /* Large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) {
+    font-size: 100%;
   }
-  
-  .blurb {
-      /* Extra small devices (phones, less than 768px) */
-    font-size: 11px;
-  
-    /* Small devices (tablets, 768px and up) */
-    @media (min-width: 768px) {
-      font-size: 100%;
-    }
-  
-    /* Medium devices (desktops, 992px and up) */
-    @media (min-width: 992px) {
-      font-size: 100%;
-    }
-  
-    /* Large devices (large desktops, 1200px and up) */
-    @media (min-width: 1200px) {
-      font-size: 100%;
-    }
-  }
+}
