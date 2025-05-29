@@ -56,6 +56,14 @@ a h3 {
 
 }
 
+.back {
+  position: fixed; 
+  top: 10px; 
+  left: 120px; 
+  z-index: 10;
+  background-color: #fff;
+}
+
 .h3heads {
 
   font-size: 14px;
