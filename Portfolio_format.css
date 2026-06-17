@@ -134,3 +134,28 @@ p {
     font-size: 100%;
   }
 }
+
+@media (max-width: 576px) {
+  .hero-row {
+    display: block;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .hero-video-container {
+    height: 260px !important;
+  }
+
+  .hero-video-container video {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover;
+  }
+
+  .intro-card {
+    position: relative !important;
+    left: auto !important;
+    width: 90% !important;
+    margin: 16px auto !important;
+  }
+}
