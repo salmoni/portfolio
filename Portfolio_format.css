@@ -1,3 +1,8 @@
+body > .row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
 p {
   padding-left: 5px;
 }
