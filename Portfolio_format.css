@@ -164,3 +164,34 @@ p {
     margin: 16px auto !important;
   }
 }
+
+/* Case-study image lightboxes */
+.case-study-lightbox {
+  display: block;
+  cursor: zoom-in;
+  text-decoration: none;
+}
+
+.case-study-lightbox img {
+  transition: filter 160ms ease;
+}
+
+.case-study-lightbox:hover img {
+  filter: brightness(0.94);
+}
+
+.case-study-lightbox:focus-visible {
+  outline: 3px solid #2563eb;
+  outline-offset: 5px;
+}
+
+.gslide-description .gslide-desc {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .case-study-lightbox img {
+    transition: none;
+  }
+}
