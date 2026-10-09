@@ -46,12 +46,6 @@
             </a>
         </div>
     </div>
-    <!-- IMAGE ROW -->
-    <div class="row" style="margin-top: 40px;">
-        <img src="assets/images/AI_Complex_prototype_02.png" style="width: 50%; margin-left:25%; margin-right: 25%;"
-            alt="A prototype created using Claude Code for a large multinational">
-    </div>
-
     <!-- FEATURES row -->
     <div class="container-fluid" style="background-color: #FFF; padding-bottom: 40px;" id="features-section">
         <br />
@@ -66,22 +60,90 @@
         </div>
     </div><!-- row -->
 
-    <!-- TAGS ROW -->
-    <div class="row" style="text-align: center; padding-bottom: 20px;">
-        <div class="col-sm-4">
+    <!-- IMAGE ROW -->
+    <div class="row" style="margin-top: 40px; padding-bottom: 60px;">
+        <img src="assets/images/Case03_hero.webp" style="width: 70%; margin-left:15%; margin-right: 15%;"
+            alt="A prototype improved AI chat interface">
+    </div>
+    <!-- IMAGES ROW -->
+    <div class="row bg-white" style="padding-top: 0px; padding-bottom: 0px;">
+        <div class="col-sm-2">
         </div>
-        <div class="col-sm-4">
-            <p>
-                <u>Industry</u>: Startups (leisure, travel and tourism), energy (oil and gas), insurance
-            </p>
-            <p>
-                This is not a single project but several done with considerable interaction with AI. What amazes me is how quickly we've come in such a short space of time.
-            </p>
-        </div>
-        <div class="col-sm-4">
+        <div class="col-sm-8">
+            <div class="row bg-white">
+                <div class="col-sm-4">
+                    <figure class="figure">
+                        <img src="assets/images/AI-IA_Desktop_all.png" width="100%" class=" rounded shadow-sm"
+                            alt="Basic chat interface showing notes">
+                        <figcaption class="figure-caption" style="margin-top: 20px; text-align: center;">
+                            The basic chat interface. Right hand are notes, a collection of documents.
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-sm-4">
+                    <figure class="figure">
+                        <img src="assets/images/AI-IA_hidden.png" width="100%" class=" rounded shadow-sm"
+                            alt="Responses hidden to aid search">
+                        <figcaption class="figure-caption" style="margin-top: 20px; text-align: center;">
+                            Responses can be hidden to help users locate queries of interest.
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-sm-4">
+                    <figure class="figure">
+                        <img src="assets/images/AI-IA_risk_graph.png" width="100%" class=" rounded shadow-sm">
+                        <figcaption class="figure-caption" style="margin-top: 20px; text-align: center;"
+                            alt="A graph of collected documents showing risk">
+                            A graph of collected documents showing risk along with provenance queries to inform user confidence.
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div class="col-sm-2">
+            </div>
         </div>
     </div>
-    <br />
+
+    <!-- PROBLEM ROW -->
+    <div class="row port-red" style="padding-top: 0px; padding-bottom: 40px;">
+        <div class="col-sm-3">
+        </div>
+        <div class="col-sm-6">
+            <br />
+            <h2>
+                <strong>
+                    Visual and Interaction Design: Beyond the Chat Interface
+                </strong>
+            </h2>
+            <hr style="background-color: #FFFFFF;">
+            <br />
+            <p>
+                AI-IA (pronounced "Aya") began as an exploration of persistent knowledge and information retrieval in conversational AI. Its original dashboard-oriented interface exposed considerable functionality, but didn't adequately support the primary activity: extended, evolving conversations.
+            </p>
+            <p>
+                I redesigned it as a conversation-first workspace, combining persistent navigation, a central conversation and an optional Notes panel. The redesign involved not just changes to typography, spacing and visual hierarchy, but reconsidering how users interact with complex information over time.
+            </p>
+            <p>
+                <strong>Managing knowledge alongside conversation.</strong> Notes evolved into a working surface with structured cards, bounded previews, editable content and source provenance. Users can collect information without losing their place in the conversation or confusing captured material with their own annotations.
+            </p>
+            <p>
+                <strong>Reducing visual and cognitive clutter.</strong> Individual responses can be hidden while retaining prompts as a navigable index. Contextual menus, progressive disclosure and reversible cleanup actions make complex functionality available without overwhelming the main workspace.
+            </p>
+            <p>
+                <strong>Making AI context visible.</strong> Information assembled from Notes can be carried into a new conversation. A distinct context object differentiates this supplied knowledge from ordinary messages, making the AI's starting information more explicit.
+            </p>
+            <p>
+                <strong>Designing for different devices.</strong> Desktop supports simultaneous conversation and contextual work. On mobile, navigation and Notes are reorganised into accessible secondary surfaces, retaining functionality while prioritising readable content.
+            </p>
+            <p>
+                <strong>Communicating trust and provenance.</strong> Source indicators, response versions and stale-source states distinguish original evidence, derived information and proposed actions.
+            </p>
+            <p>
+                The interface was developed through iterative prototyping, with detailed attention to component behaviour, visual consistency and the relationship between information architecture and presentation.
+            </p>
+        </div>
+    </div>
+
 
     <!-- PROBLEM ROW -->
     <div class="row port-red" style="padding-top: 0px; padding-bottom: 40px;">
@@ -97,19 +159,10 @@
             <hr style="background-color: #FFFFFF;">
             <br />
             <p>
-                "Have you designed AI interfaces?"
-            </p>
-            <p>
-                Yes, for a large multinational's engineering platform. A design system was mandated which followed other systems but, based on findings from research and testing, I made some improvements to meet users' needs. 
-            </p>
-            <p>
-                LLM conversations were long and locating earlier information was difficult; useful items from several threads were hard to combine; repeating work from other threads but with new data might be tricky; sharing information across threads was not so easy.
+                At SLB, I designed LLM conversations which were long. Locating earlier information was difficult; useful items from several threads were hard to combine; repeating work from other threads but with new data might be tricky; sharing information across threads was not so easy.
             </p>
             <p>
                 This was a familiar problem from when I studied search engines in the 1990s. It was easy to get information but hard to form information into a useful structure. My job was to not just present a standard chat interface. Instead, I looked forward to tackle the challenges users were already beginning to encounter. 
-            </p>
-            <p>
-                Due to an NDA, I cannot show this work but suffice to say that (for example) I designed a way to help users locate information before ChatGPT did by a few days. I am currently putting together a prototype to demonstrate design solutions to these problems. 
             </p>
             <br />
         </div>
@@ -146,38 +199,6 @@
                 </video>
                 <figcaption class="figure-caption" style="margin-top: 20px; text-align: center;">
                     Prototype created by Claude Code under my instruction 
-                </figcaption>
-            </figure>
-            <p>
-                Most recently, I've been applying information architecture and user experience skills to design and build a prototype of Chat using Codex. The driver is to help users stay on top of AI information and have greater input into the creation of outputs. Other functions include confidence and being able to send pieces of information (from selected text, through responses, pairs and threads and onto projects) to different places, changing the length of outputs and have them re-organised into sensible outputs without the unnecessary cruft. Another focus is on auditability. I hope to create a video showing this off soon but you can preview this <a target="_blank" href="https://ai-ia-six.vercel.app/">improved chat interface</a> work-in-progress prototype here.
-            </p>
-            <!-- images of AI-IA -->
-            <figure class="figure">
-                <img src="assets/images/AI-IA.png" width="100%" class=" rounded shadow-sm"
-                    alt="A screenshot of a new LLM interface.">
-                <figcaption class="figure-caption" style="margin-top: 20px; text-align: center;">
-                    The next generation of AI interfaces.
-                </figcaption>
-            </figure>
-            <figure class="figure">
-                <img src="assets/images/AI-IA_graph.png" width="100%" class=" rounded shadow-sm"
-                    alt="A screenshot of a new LLM interface showing a graph.">
-                <figcaption class="figure-caption" style="margin-top: 20px; text-align: center;">
-                    Showing a graph to assess provenance, reliability, etc.
-                </figcaption>
-            </figure>
-
-            
-
-            <p>
-                I also used Codex to very quickly design a small B2C leisure website for a client. This was a proof-of-concept and is still ongoing. What Claude helped me to do is refine the design questions down, create the materials according to my instructions and get it up and running, including a language translator in both English and Thai.
-            </p>
-            <!-- image of content inventory -->
-            <figure class="figure">
-                <img src="assets/images/MJMT-Home.png" width="100%" class=" rounded shadow-sm"
-                    alt="A screenshot of an LLM-designed website for Muay Thai.">
-                <figcaption class="figure-caption" style="margin-top: 20px; text-align: center;">
-                    The AI-led design for a Muay Thai gym
                 </figcaption>
             </figure>
         </div>
