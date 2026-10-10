@@ -88,6 +88,23 @@ p {
   margin-bottom: 25px;
 }
 
+/* Keep the three key Case 02 images visually balanced without cropping. */
+.key-images-row .key-image {
+  display: block;
+  width: 80%;
+  aspect-ratio: 1311 / 800;
+  margin-inline: auto;
+  object-fit: contain;
+}
+
+.support-images {
+  display: block;
+  width: 100%;
+  aspect-ratio: 800 / 1311;
+  margin-inline: auto;
+  object-fit: contain;
+}
+
 .port-dark {
   background-color: #3A2B50;
   color: #fff;
