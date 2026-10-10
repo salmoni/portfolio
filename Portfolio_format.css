@@ -105,6 +105,28 @@ p {
   object-fit: contain;
 }
 
+/* Keep each case-study image visually grouped with its caption. */
+.case-study-figure {
+  display: block;
+  width: 100%;
+  margin: 0;
+}
+
+.case-study-figure .figure-caption {
+  margin-top: 20px;
+  text-align: center;
+}
+
+@media (max-width: 575.98px) {
+  .case-study-figure .figure-caption {
+    margin-top: 12px;
+  }
+
+  .key-images-row > .case-study-item:not(.case-study-item-last) .case-study-figure {
+    margin-bottom: 40px;
+  }
+}
+
 .port-dark {
   background-color: #3A2B50;
   color: #fff;
