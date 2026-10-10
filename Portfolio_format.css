@@ -105,6 +105,13 @@ p {
   object-fit: contain;
 }
 
+.search-result-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-inline: auto;
+}
+
 /* Keep each case-study image visually grouped with its caption. */
 .case-study-figure {
   display: block;
