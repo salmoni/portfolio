@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1100" viewBox="0 0 1600 1100" role="img" aria-labelledby="title desc">
+<title id="title">Phuket Shooters — visual design foundations</title>
+<desc id="desc">A screenshot-matched design panel showing typography hierarchy, sampled colour roles, primary and secondary actions, and a reusable IDPA course card. Typography is a close visual approximation, not a verified site font.</desc>
+<rect x="0" y="0" width="1600" height="1100" fill="#F5F2EC"/>
+<rect x="0" y="0" width="1600" height="8" fill="#DC2F2F"/>
+<text x="64" y="70" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="17" font-weight="700" fill="#DC2F2F" letter-spacing="2.7">PHUKET SHOOTERS</text>
+<text x="64" y="133" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="48" font-weight="700" fill="#17191C" letter-spacing="-1.4">Visual design foundations</text>
+<text x="1536" text-anchor="end" y="71" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="15" font-weight="400" fill="#66645F" letter-spacing="1.5">DESIGN / COMPONENTS</text>
+<path d="M64 179 H1536" fill="none" stroke="#D6D1C8"/>
+<text x="64" y="228" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="17" font-weight="700" fill="#66645F" letter-spacing="1.5">01 / TYPOGRAPHY</text>
+<text x="64" y="279" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="15" font-weight="700" fill="#DC2F2F" letter-spacing="2.5">CHOOSE YOUR EXPERIENCE</text>
+<text x="64" y="348" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="59" font-weight="700" fill="#17191C" letter-spacing="-2">Professional Range.</text>
+<text x="64" y="411" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="59" font-weight="700" fill="#17191C" letter-spacing="-2">Expert Supervision.</text>
+<text x="64" y="476" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="36" font-weight="700" fill="#17191C" letter-spacing="-1">Ways to enjoy</text>
+<text x="64" y="524" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="23" font-weight="400" fill="#17191C" letter-spacing="0">From beginners to experienced shooters,</text>
+<text x="64" y="557" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="23" font-weight="400" fill="#17191C" letter-spacing="0">we welcome all skill levels.</text>
+<text x="850" y="228" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="17" font-weight="700" fill="#66645F" letter-spacing="1.5">02 / COLOUR ROLES</text>
+<rect x="850" y="267" width="148" height="113" fill="#DC2F2F"/>
+<text x="850" y="414" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="23" font-weight="700" fill="#17191C" letter-spacing="0">Red</text>
+<text x="850" y="445" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="18" font-weight="400" fill="#66645F" letter-spacing="0.5">#DC2F2F</text>
+<text x="850" y="485" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="18" font-weight="400" fill="#66645F" letter-spacing="0">Actions &amp;</text>
+<text x="850" y="511" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="18" font-weight="400" fill="#66645F" letter-spacing="0">highlights</text>
+<rect x="1024" y="267" width="148" height="113" fill="#17191C"/>
+<text x="1024" y="414" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="23" font-weight="700" fill="#17191C" letter-spacing="0">Charcoal</text>
+<text x="1024" y="445" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="18" font-weight="400" fill="#66645F" letter-spacing="0.5">#17191C</text>
+<text x="1024" y="485" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="18" font-weight="400" fill="#66645F" letter-spacing="0">Text &amp; dark</text>
+<text x="1024" y="511" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="18" font-weight="400" fill="#66645F" letter-spacing="0">sections</text>
+<rect x="1198" y="267" width="148" height="113" fill="#F5F2EC" stroke="#D6D1C8"/>
+<text x="1198" y="414" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="23" font-weight="700" fill="#17191C" letter-spacing="0">Cream</text>
+<text x="1198" y="445" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="18" font-weight="400" fill="#66645F" letter-spacing="0.5">#F5F2EC</text>
+<text x="1198" y="485" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="18" font-weight="400" fill="#66645F" letter-spacing="0">Main</text>
+<text x="1198" y="511" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="18" font-weight="400" fill="#66645F" letter-spacing="0">backgrounds</text>
+<rect x="1372" y="267" width="148" height="113" fill="#EBE7DF"/>
+<text x="1372" y="414" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="23" font-weight="700" fill="#17191C" letter-spacing="0">Stone</text>
+<text x="1372" y="445" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="18" font-weight="400" fill="#66645F" letter-spacing="0.5">#EBE7DF</text>
+<text x="1372" y="485" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="18" font-weight="400" fill="#66645F" letter-spacing="0">Section</text>
+<text x="1372" y="511" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="18" font-weight="400" fill="#66645F" letter-spacing="0">contrast</text>
+<path d="M64 604 H1536" fill="none" stroke="#D6D1C8"/>
+<text x="64" y="654" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="17" font-weight="700" fill="#66645F" letter-spacing="1.5">03 / ACTIONS</text>
+<rect x="64" y="695" width="275" height="68" fill="#DC2F2F"/>
+<text x="88" y="736" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="15" font-weight="700" fill="#FFFFFF" letter-spacing="1.1">SEE PRICES</text>
+<path d="M290 729 h20 m-7 -6 7 6 -7 6" fill="none" stroke="#FFFFFF" stroke-width="1.5"/>
+<rect x="363" y="695" width="335" height="68" fill="#FFFFFF"/>
+<text x="387" y="736" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="15" font-weight="700" fill="#17191C" letter-spacing="1.1">BOOK / ENQUIRE</text>
+<path d="M649 729 h20 m-7 -6 7 6 -7 6" fill="none" stroke="#17191C" stroke-width="1.5"/>
+<text x="64" y="797" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="18" font-weight="400" fill="#66645F" letter-spacing="0">Primary action</text>
+<text x="363" y="797" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="18" font-weight="400" fill="#66645F" letter-spacing="0">Secondary action</text>
+<text x="64" y="876" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="15" font-weight="700" fill="#17191C" letter-spacing="1.1">VIEW THE GALLERY</text>
+<path d="M272 869 h20 m-7 -6 7 6 -7 6" fill="none" stroke="#17191C" stroke-width="1.5"/>
+<path d="M64 891 H313" fill="none" stroke="#9C9991"/>
+<text x="64" y="927" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="18" font-weight="400" fill="#66645F" letter-spacing="0">Text link</text>
+<text x="850" y="654" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="17" font-weight="700" fill="#66645F" letter-spacing="1.5">04 / ACTIVITY CARD</text>
+<rect x="850" y="695" width="686" height="332" fill="#DC2F2F"/>
+<text x="882" y="744" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="15" font-weight="700" fill="#FFFFFF" letter-spacing="1.1">03</text>
+<text x="882" y="829" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="37" font-weight="700" fill="#FFFFFF" letter-spacing="-1">IDPA course</text>
+<text x="882" y="873" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="22" font-weight="400" fill="#FFFFFF" letter-spacing="0">A structured three-day introduction to safe</text>
+<text x="882" y="906" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="22" font-weight="400" fill="#FFFFFF" letter-spacing="0">pistol handling and competitive shooting.</text>
+<text x="882" y="977" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" letter-spacing="1.1">EXPLORE THE COURSE</text>
+<path d="M1160 971 h20 m-7 -6 7 6 -7 6" fill="none" stroke="#FFFFFF" stroke-width="1.5"/>
+<path d="M882 994 H1204" fill="none" stroke="#EE9696"/>
+</svg>

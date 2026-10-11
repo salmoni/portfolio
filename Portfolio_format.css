@@ -105,7 +105,8 @@ p {
   object-fit: contain;
 }
 
-.search-result-image {
+.search-result-image,
+.design-panel-image {
   display: block;
   width: 100%;
   height: auto;
