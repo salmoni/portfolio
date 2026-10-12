@@ -88,6 +88,33 @@ p {
   margin-bottom: 25px;
 }
 
+/* Keep case-card media and the text beneath it aligned within each row. */
+.case-card-image {
+  display: block;
+  width: 90%;
+  aspect-ratio: 16 / 9;
+  margin: 5%;
+  object-fit: contain;
+}
+
+@media (min-width: 576px) {
+  .case-card-title {
+    min-height: 6em;
+  }
+}
+
+@media (min-width: 768px) {
+  .case-card-title {
+    min-height: 3.6em;
+  }
+}
+
+@media (min-width: 992px) {
+  .case-card-title {
+    min-height: 2.4em;
+  }
+}
+
 /* Keep the three key Case 02 images visually balanced without cropping. */
 .key-images-row .key-image {
   display: block;
