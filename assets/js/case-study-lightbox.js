@@ -42,6 +42,63 @@
             trigger.appendChild(image);
         });
 
+        const svgObjectUrls = [];
+        const inlineSvgs = Array.from(document.querySelectorAll("svg[data-lightbox]"));
+
+        inlineSvgs.forEach((svg) => {
+            if (svg.closest("a")) {
+                return;
+            }
+
+            const figure = svg.closest("figure");
+            const caption = figure?.querySelector("figcaption");
+            const captionText = caption?.textContent.trim();
+            const titleText = svg.querySelector("title")?.textContent.trim();
+            const descriptionText = svg.querySelector("desc")?.textContent.trim();
+            const accessibleDescription = captionText || titleText || descriptionText || "case-study graphic";
+            const lightboxSvg = svg.cloneNode(true);
+            const viewBox = svg.viewBox.baseVal;
+
+            if (viewBox?.width && viewBox?.height) {
+                lightboxSvg.setAttribute("width", viewBox.width);
+                lightboxSvg.setAttribute("height", viewBox.height);
+            }
+
+            const serializedSvg = new XMLSerializer().serializeToString(lightboxSvg);
+            const svgObjectUrl = URL.createObjectURL(new Blob([serializedSvg], { type: "image/svg+xml" }));
+
+            svgObjectUrls.push(svgObjectUrl);
+
+            const trigger = document.createElement("a");
+            trigger.href = svgObjectUrl;
+            trigger.className = "glightbox case-study-lightbox";
+            trigger.dataset.gallery = galleryName;
+            trigger.dataset.type = "image";
+            trigger.dataset.alt = titleText || accessibleDescription;
+            trigger.setAttribute("aria-haspopup", "dialog");
+            trigger.setAttribute("aria-label", `Open full-size image: ${accessibleDescription}`);
+
+            if (caption) {
+                trigger.dataset.description = caption.innerHTML.trim();
+            }
+
+            svg.parentNode.insertBefore(trigger, svg);
+            trigger.appendChild(svg);
+        });
+
+        if (svgObjectUrls.length) {
+            const releaseSvgObjectUrls = (event) => {
+                if (event.persisted) {
+                    return;
+                }
+
+                svgObjectUrls.forEach((url) => URL.revokeObjectURL(url));
+                window.removeEventListener("pagehide", releaseSvgObjectUrls);
+            };
+
+            window.addEventListener("pagehide", releaseSvgObjectUrls);
+        }
+
         if (!document.querySelector(".case-study-lightbox")) {
             return;
         }

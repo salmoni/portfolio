@@ -246,11 +246,13 @@ p {
   text-decoration: none;
 }
 
-.case-study-lightbox img {
+.case-study-lightbox img,
+.case-study-lightbox svg {
   transition: filter 160ms ease;
 }
 
-.case-study-lightbox:hover img {
+.case-study-lightbox:hover img,
+.case-study-lightbox:hover svg {
   filter: brightness(0.94);
 }
 
@@ -265,7 +267,8 @@ p {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .case-study-lightbox img {
+  .case-study-lightbox img,
+  .case-study-lightbox svg {
     transition: none;
   }
 }
